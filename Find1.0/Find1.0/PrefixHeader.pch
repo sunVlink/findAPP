@@ -1,0 +1,57 @@
+//
+//  PrefixHeader.pch
+//  Find1.0
+//
+//  Created by APPLE on 15/8/22.
+//  Copyright (c) 2015年 APPLE. All rights reserved.
+//
+
+#ifndef Find1_0_PrefixHeader_pch
+#define Find1_0_PrefixHeader_pch
+
+
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+
+#import "WebRequest.h"
+#import "AFNetworking.h"
+
+#import <pop/POPAnimation.h>
+#import <pop/POP.h>
+
+#import "ActivityIndicatorView.h"
+
+#import "YYAnimationIndicator.h"
+
+#import "MyMD5.h"
+
+#import "MTLModel.h"
+
+#import <TAlertView/TAlertView.h>
+
+#import "DXAlertView.h"
+
+#import "HttpRequstHelper.h"
+
+#import "YcKeyBoardView.h"
+
+#import "SingleSession.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define MainView_frame [UIScreen mainScreen].bounds
+
+#define Screen_width [UIScreen mainScreen].bounds.size.width
+#define Screen_height [UIScreen mainScreen].bounds.size.height
+
+#define WIDTH_LENTH [UIScreen mainScreen].bounds.size.width / 375
+
+#define HEIGHT_LENTH  [UIScreen mainScreen].bounds.size.height  /  667
+
+#define MAIN_YELLOWCOLOR [UIColor colorWithRed:225/255.0 green:211/255.0 blue:179/255.0 alpha:1]
+#define BACKGROUND_PUPCOLOR [UIColor colorWithRed:18/255.0 green:4/255.0 blue:19/255.0 alpha:1]
+
+
+#endif

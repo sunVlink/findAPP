@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EaseMobSDKFull (2.2.0)
+  - GPUImage (0.1.7)
+  - Mantle (2.0.4):
+    - Mantle/extobjc (= 2.0.4)
+  - Mantle/extobjc (2.0.4)
+  - pop (1.0.7)
+  - RongCloudIMKit (2.2.11)
+  - TAlertView (0.2.0)
+  - TuSDK (1.8.11):
+    - GPUImage (~> 0.1.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - EaseMobSDKFull (from `https://github.com/easemob/sdk-ios-cocoapods-integration.git`)
+  - Mantle
+  - pop (~> 1.0)
+  - RongCloudIMKit
+  - TAlertView
+  - TuSDK
+
+EXTERNAL SOURCES:
+  EaseMobSDKFull:
+    :git: https://github.com/easemob/sdk-ios-cocoapods-integration.git
+
+CHECKOUT OPTIONS:
+  EaseMobSDKFull:
+    :commit: e0e4cf59d79891be97777be3c474e3fd56fa308c
+    :git: https://github.com/easemob/sdk-ios-cocoapods-integration.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  EaseMobSDKFull: 2ed9ecc718c5d092f362977d8da79246d968b5b9
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  Mantle: 6bee68168423948be0c0c5924832bf3af188e099
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  RongCloudIMKit: 9268043d0b4cdc5fd39a23d43d7115a3f913c6e7
+  TAlertView: 3787ac0ea7e832d80be129a9be960eb1fc5c73f1
+  TuSDK: eac4af7aeae14253d274d517bd018e16b2a2ef04
+
+COCOAPODS: 0.37.2
