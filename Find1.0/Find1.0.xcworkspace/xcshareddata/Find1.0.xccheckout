@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A051D060-65B0-44B7-83A9-BBFC639B9568</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Find1.0</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DCE6571C235D6C3801FA41173F5C70EDB3807CF4</key>
+		<string>https://github.com/sunVlink/findAPP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Find1.0/Find1.0.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DCE6571C235D6C3801FA41173F5C70EDB3807CF4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sunVlink/findAPP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DCE6571C235D6C3801FA41173F5C70EDB3807CF4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DCE6571C235D6C3801FA41173F5C70EDB3807CF4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>findAPP</string>
+		</dict>
+	</array>
+</dict>
+</plist>

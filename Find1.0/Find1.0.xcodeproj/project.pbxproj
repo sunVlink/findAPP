@@ -218,6 +218,7 @@
 		18ECAA571B8C0E3E00456E43 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ECAA511B8C0E3E00456E43 /* 5.png */; };
 		18ECAA581B8C0E3E00456E43 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18ECAA521B8C0E3E00456E43 /* 6.png */; };
 		18ECAA5B1B8C0E4A00456E43 /* YYAnimationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ECAA5A1B8C0E4A00456E43 /* YYAnimationIndicator.m */; };
+		18F116EA1BB536C8005DB17F /* TestAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F116E91BB536C8005DB17F /* TestAdd.m */; };
 		18FD292C1BAFAF170006597B /* 发送信息.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FD292B1BAFAF170006597B /* 发送信息.png */; };
 		18FD292E1BAFAF3A0006597B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FD292D1BAFAF3A0006597B /* icon.png */; };
 		18FD29321BAFD8AA0006597B /* WdCleanCaches.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FD29311BAFD8AA0006597B /* WdCleanCaches.m */; };
@@ -526,6 +527,8 @@
 		18ECAA521B8C0E3E00456E43 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		18ECAA591B8C0E4A00456E43 /* YYAnimationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimationIndicator.h; sourceTree = "<group>"; };
 		18ECAA5A1B8C0E4A00456E43 /* YYAnimationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimationIndicator.m; sourceTree = "<group>"; };
+		18F116E81BB536C8005DB17F /* TestAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAdd.h; sourceTree = "<group>"; };
+		18F116E91BB536C8005DB17F /* TestAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAdd.m; sourceTree = "<group>"; };
 		18FD292B1BAFAF170006597B /* 发送信息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发送信息.png"; sourceTree = "<group>"; };
 		18FD292D1BAFAF3A0006597B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		18FD29301BAFD8AA0006597B /* WdCleanCaches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WdCleanCaches.h; sourceTree = "<group>"; };
@@ -590,6 +593,7 @@
 		184A226F1B8816C7009F2AAA /* Find1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				18F116E71BB536B4005DB17F /* 测试添加 */,
 				188967AD1BB3DCAD00DE673B /* 单例 */,
 				18AC6C3B1B9585A900F99A45 /* 个人中心 */,
 				184A23EB1B88562A009F2AAA /* 引导页 */,
@@ -1327,6 +1331,15 @@
 			path = YYAnimationIndicator;
 			sourceTree = "<group>";
 		};
+		18F116E71BB536B4005DB17F /* 测试添加 */ = {
+			isa = PBXGroup;
+			children = (
+				18F116E81BB536C8005DB17F /* TestAdd.h */,
+				18F116E91BB536C8005DB17F /* TestAdd.m */,
+			);
+			path = "测试添加";
+			sourceTree = "<group>";
+		};
 		18FD292A1BAFAF0C0006597B /* 设置切图 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1663,6 +1676,7 @@
 				184A22F01B8820B8009F2AAA /* MKAnnotationView+WebCache.m in Sources */,
 				18AF47B51BB28FB000902BB2 /* ImageDetailViewController.m in Sources */,
 				184A22E91B8820B8009F2AAA /* MJRefreshGifHeader.m in Sources */,
+				18F116EA1BB536C8005DB17F /* TestAdd.m in Sources */,
 				184A22F11B8820B8009F2AAA /* NSData+ImageContentType.m in Sources */,
 				184A22FA1B8820B8009F2AAA /* UIImage+GIF.m in Sources */,
 				184A22F91B8820B8009F2AAA /* UIButton+WebCache.m in Sources */,
